@@ -23,16 +23,20 @@ Este proyecto implementa una API REST para gestionar productos con un frontend p
 
 ## Informacion sobre la Api
 
-Endpoints:
+Endpoints de la API:
 
-GET	   /productos	      Listado de productos	-
-GET	   /productos/{id}	Obtener un producto	-
-POST	   /productos	      Crear un nuevo producto	{"nombre":"Product","precio":1000}
-PUT	   /productos/{id}	editar un producto	{"nombre":"Updated Product"}
-DELETE	/productos/{id}	borrar un producto -
+| Método   | Endpoint            | Descripción                 | Body Request (Ejemplo)               |
+|----------|---------------------|-----------------------------|--------------------------------------|
+| `GET`    | `/productos`        | Listado de productos        | -                                    |
+| `GET`    | `/productos/{id}`   | Obtener un producto         | -                                    |
+| `POST`   | `/productos`        | Crear un nuevo producto     | `{"nombre":"Product","precio":1000}` |
+| `PUT`    | `/productos/{id}`   | Editar un producto          | `{"nombre":"Updated Product"}`       |
+| `DELETE` | `/productos/{id}`   | Borrar un producto          | -                                    |
 
 Servicios de Docker:
 
-php	   8000	PHP API backend
-mysql	   3306	MySQL database
-frontend	8080	Nginx web server
+| Servicio    | Puerto | Descripción                 |
+|-------------|--------|-----------------------------|
+| `php`       | 8000   | Backend API en PHP          |
+| `mysql`     | 3306   | Base de datos MySQL         |
+| `frontend`  | 8080   | Servidor web Nginx          |
