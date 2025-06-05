@@ -19,9 +19,11 @@ Este proyecto implementa una API REST para gestionar productos con un frontend p
    ```
 
 2. Iniciar servicios:
+```bash
    docker-compose up -d --build
+```
+4. Acceder a la aplicacion:
 
-3. Acceder a la aplicacion:
    http://localhost:8000
 
 ## Informacion sobre la Api
