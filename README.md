@@ -12,8 +12,8 @@ Este proyecto implementa una API REST para gestionar productos con un frontend p
 
 1. Clonar el repositorio:
    ```bash
-   git clone 
-   cd 
+   git clone https://github.com/francoecheverria/GestionProductos.git
+   cd GestionProductos
 
 2. Iniciar servicios:
    docker-compose up -d --build
